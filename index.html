@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стильове оформлення сторінок</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div>
+            <div class="title">
+                <h1>Навички</h1>
+            </div>
+            <div class="flex">
+                <div class="block">
+                    <h2>1</h2>
+                </div>
+                <div class="block">
+                    <h2>2</h2>
+                </div>
+                <div class="block">
+                    <h2>3</h2>
+                </div>
+                <div class="block">
+                    <h2>4</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        body{
+            margin: 0;
+            top: 0;
+            font-family: "Inter", sans-serif;
+            background: #131417;
+            background-position: top right;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-image: url('https://cpwebassets.codepen.io/assets/packs/lines-2-4e66616a5ef291c3566a7ddfe1ffaaa8.svg');
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        h1, h2{
+            margin: 0px;
+            text-align: center;
+        }
+        p{
+            margin: 0px;
+        }
+        .title{
+            margin-top: 80px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        .flex{
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 60px;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20%;
+        }
+        .block{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            display: block;
+            border-radius: 12px;
+            width: 40%;
+            color: #fff;
+            background: #1E1F26;
+        }
+        .block p{
+            color: #C7C9D3;
+            margin-top: 12px;
+        }
+    </style>
+</body>
+</html>
